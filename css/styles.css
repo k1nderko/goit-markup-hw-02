@@ -63,6 +63,7 @@
 
 .footer {
     background-color: var(--main-titles-color);
+    color: var(--lightest-grey);
 }
 
 .footer .logo-em {
@@ -157,10 +158,10 @@ body {
     ;
 }
 
-.member-picture {
+/*.member-picture {
     width: 264;
     height: 260;
-}
+}*/
 
 .member-name {
     font-weight: 500;
@@ -207,4 +208,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color)
+}
+.selection4 {
+    background-color: #F4F4FD;
 }
