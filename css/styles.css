@@ -1,0 +1,210 @@
+:root {
+    --main-titles-color: #2E2F42;
+    --main-text-color: #434455;
+    --lightest-grey: #F4F4FD;
+    --button-main-color: #4D5AE5;
+    --button-second-color: #E7E9FC;
+    --hover-color: #404BBF;
+    --main-font: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--button-main-color);
+}
+
+.logo-em {
+    color: var(--main-titles-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-titles-color);
+}
+
+.contact {
+    font-style: normal;
+}
+
+.contact-link {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--hover-color);
+}
+
+
+.footer {
+    background-color: var(--main-titles-color);
+}
+
+.footer .logo-em {
+    color: var(--lightest-grey)
+}
+
+.footer-text {
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--button-second-color);
+}
+
+
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+    background-color: #FFFFFF;
+}
+
+
+.main-title-section {
+    background-color: var(--main-titles-color);
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-title-button {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--button-main-color);
+    cursor: pointer;
+}
+
+.main-title-button:hover,
+.main-title-button:focus {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+
+.principles-list {
+    list-style: none;
+}
+
+.principle-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-titles-color);
+}
+
+.principle-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-titles-color);
+    text-align: center;
+}
+
+
+
+.team-description {
+    background-color: var(--lightest-grey);
+}
+
+.team-member {
+    background-color: #FFFFFF;
+    ;
+}
+
+.member-picture {
+    width: 264;
+    height: 260;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-titles-color);
+}
+
+.member-position {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.property-button {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--button-main-color);
+    background-color: var(--lightest-grey);
+    cursor: pointer;
+}
+
+.property-button:hover,
+.property-button:focus {
+    color: #FFFFFF;
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.portfolio-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-titles-color);
+}
+
+.portfolio-item-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color)
+}
