@@ -75,7 +75,7 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--button-second-color);
+    color: var(--lightest-grey);
 }
 
 
@@ -157,11 +157,6 @@ body {
     background-color: #FFFFFF;
     ;
 }
-
-/*.member-picture {
-    width: 264;
-    height: 260;
-}*/
 
 .member-name {
     font-weight: 500;
